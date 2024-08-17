@@ -25,3 +25,5 @@ Route::apiResource('/basic-salaries', App\Http\Controllers\API\BasicSalaryContro
 Route::apiResource('/holidays', App\Http\Controllers\API\HolidayController::class)->middleware('auth:sanctum');
 //leave type
 Route::apiResource('/leave-types', App\Http\Controllers\API\LeaveTypeController::class)->middleware('auth:sanctum');
+//leaves
+Route::apiResource('/leaves', App\Http\Controllers\API\LeaveController::class)->middleware('auth:sanctum');
