@@ -29,3 +29,5 @@ Route::apiResource('/leave-types', App\Http\Controllers\API\LeaveTypeController:
 Route::apiResource('/leaves', App\Http\Controllers\API\LeaveController::class)->middleware('auth:sanctum');
 //attendances
 Route::apiResource('/attendances', App\Http\Controllers\API\AttendanceController::class)->middleware('auth:sanctum');
+//payrolls
+Route::apiResource('/payrolls', App\Http\Controllers\API\PayrollController::class)->middleware('auth:sanctum');
