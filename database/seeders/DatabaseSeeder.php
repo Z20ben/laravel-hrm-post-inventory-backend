@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Attendance;
 use App\Models\Holiday;
 use App\Models\PermissionRole;
 use App\Models\RoleUser;
@@ -45,6 +46,7 @@ class DatabaseSeeder extends Seeder
             HolidaySeeder::class,
             LeaveTypeSeeder::class,
             LeaveSeeder::class,
+            AttendanceSeeder::class,
         ]);
     }
 }
